@@ -18,9 +18,3 @@ plan:
   statement: markdowns/ex7.md
 - title: Exercice 8 (vecteurs et pointeurs)
   statement: markdowns/ex8.md
-projects:
-  swap:
-    root: /swap
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
