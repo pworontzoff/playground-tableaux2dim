@@ -5,6 +5,6 @@
 *+ Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
 + Afficher ces éléments colonne par colonne («colonne 1: ... / colonne 2: ...»), via une fonction qui reçoit t par pointeur.
 + Exemple :
-![une exécution de la solution](images/exemple-ex1.png)
+![une exécution de la solution](images/exemple-ex2.png)
 
 NB : Les lignes en italiques sont les mêmes que dans l'énoncé 1 (#reusecode ;-))
