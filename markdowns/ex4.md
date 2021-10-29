@@ -1,7 +1,12 @@
-# Exercice 4 (vecteurs) : COUPER-COLLER-MÉLANGER UN VECTEUR
+# Exercice 3 : MIROIR SUR LA DIGONALE
 
-+ Déclarer deux vecteurs `v[50]` et `vM[50]` (`vM` pour « Vecteur Mélangé ») et demander `n` (<=50) ainsi que `d` (>=0, un nombre entier positif de départ) et remplir les `n` cases de `v` et `vM` de la façon suivante :
-  + Remplir `v` avec les valeurs d+0,d+1, ..., d+n-1 
-  + Afficher `v`
-  + Remplir chacune des `n` valeur de `vM` avec une des `n` valeur de `v` prise au hasard. A chaque itération, on prend un indice au hasard (entre 0 et n-1 inclus). Si l'indice est inédit : mettre la valeur -1 à cette case, sinon parcourir le reste du vecteur (et éventuellement le début) jursqu'à trouver la première valeur différente de -1 
-  + Afficher `vM`
++ Lire `o`, le nombres de lignes et de colonnes d'un tableau (carré) `t`.
++ *L'initialiser dans le `main()` avec des valeurs aléatoires comprises entre **1** et **100**, par indices.*
++ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
++ Intervertir les valeurs en se servant de la diagonale principale comme miroir, par indices.
++ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
++ Intervertir les valeurs en se servant de la diagonale principale comme miroir, via une fonction qui reçoit `t` par pointeur.
++ Exemple :
+![une exécution de la solution](images/exemple-ex4.png)
+
+NB : Les lignes en italiques sont les mêmes que dans l'énoncé 1 (#reusecode ;-))
