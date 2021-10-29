@@ -24,11 +24,12 @@ int main()
     printf("nombre de colonnes du tableau (<=%d): ",O);
     scanf("%hd",&n);
 	
-    printf("nombre a placer tout en bas a droite en derniere case du tableau : ")
+    printf("nombre a placer tout en bas a droite en derniere case du tableau : ");
     scanf("%hd",&nb);
+
+    t[m-1][n-1] = nb; //on ne considere bien que la partie de t allant de 0,0 jq m-1,n-1 !
 	
-	t[m-1][n-1] = nb;
-	printf("Tableau initialise a 0 avec nb en derniere case !");
+    printf("Tableau initialise a 0 avec nb en derniere case !");
 
     return 0;
 }
