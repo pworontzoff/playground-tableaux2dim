@@ -2,3 +2,5 @@ title: 6 - Les tableaux (à 2 dimensions)
 plan:
 - title: Introduction
   statement: markdowns/introduction.md
+- title: Exercice 1
+  statement: markdowns/ex1.md
