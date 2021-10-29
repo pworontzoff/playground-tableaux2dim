@@ -5,7 +5,7 @@ Pour ces exercices, on travaille à l’aide d’un tableau (à 2 dimensions) d�
 
 ## Bête exemple pour fixer les idées
 
-```C runnable
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
