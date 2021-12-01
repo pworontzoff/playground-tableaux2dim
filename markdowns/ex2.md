@@ -1,4 +1,4 @@
-# Exercice 2 : AFFICHAGE D’UN TABLEAU LIGNE PAR LIGNE
+# Exercice 2 : AFFICHAGE D’UN TABLEAU LIGNE PAR LIGNE ET COLONNE PAR COLONNE
 
 + *Lire `n` et `m`, les nombres de lignes et de colonnes d'un tableau `t`.*
 + *L'initialiser dans le `main()` avec des valeurs aléatoires comprises entre **1** et **100**, par indices.*
