@@ -6,6 +6,7 @@
 + Intervertir les valeurs en se servant de la diagonale principale comme miroir, par indices.
 + *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
 + Intervertir les valeurs en se servant de la diagonale principale comme miroir, via une fonction qui reçoit `t` par pointeur.
++ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
 + Exemple :
 ![une exécution de la solution](images/exemple-ex4.png)
 
