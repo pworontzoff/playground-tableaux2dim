@@ -7,6 +7,7 @@ Pour ces exercices, on travaille à l’aide d’un tableau (à 2 dimensions) d�
 ## Bête exemple pour fixer les idées
 
 ```C
+#pragma warning(disable:4996)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -35,3 +36,27 @@ int main()
     return 0;
 }
 ```
+
+## Pour rappel
+Visual Studio est disponible gratuitement (https://ecolevirtuelle.provincedeliege.be/ctrl/ctrl_gestion.openDocument?p_idNode=1177603)
+
+Une fois Visual Studio installé, vous pouvez créer **un projet par exercice** !! (Fichiers > Nouveau > Projets...) 
+
+Au départ, vous pouvez toujours commencer par taper (ou copier-coller ;-D) les lignes suivantes :
+```c
+#pragma warning(disable:4996)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    return 0;
+}
+```
+
+Ensuite, vous pouvez écrire votre code en ligne 7 juste avant l'instruction `return 0;`
+
+Le bouton "Exécuter sans débogage" (triangle "play" vert) permet de recompiler et exécuter tout votre projet.
+
+À toutes fins utiles, voici à nouveau le document contenant des infos utiles sur l'utilisation du debogueur de Visual Studio&nbsp;: https://ecolevirtuelle.provincedeliege.be/ctrl/ctrl_gestion.openDocument?p_idNode=1177599
