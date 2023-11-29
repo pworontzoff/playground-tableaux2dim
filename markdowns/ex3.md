@@ -2,9 +2,9 @@
 
 + *Lire `n` et `m`, les nombres de lignes et de colonnes d'un tableau `t`.*
 + *L'initialiser dans le `main()` avec des valeurs aléatoires comprises entre **1** et **100**, par indices.*
-+ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
-+ Parcourir ce tableau en zig-zag (= colonne par colonne, une colonne on descend, la suivante on remonte etc.) et à chaque nouvelle case parcourue incrémenter celle-ci du nombre de déplacements effectués. Ceci, via une fonction qui reçoit t par pointeur.
-+ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` par pointeur.*
++ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` en paramètre.*
++ Parcourir ce tableau en zig-zag (= colonne par colonne, une colonne on descend, la suivante on remonte etc.) et à chaque nouvelle case parcourue incrémenter celle-ci du nombre de déplacements effectués. Ceci, via une fonction qui reçoit t en paramètre.
++ *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` en paramètre.*
 + Exemple :
 ![une exécution de la solution](images/exemple-ex3.png)
 
