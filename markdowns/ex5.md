@@ -1,4 +1,4 @@
-# Exercice 5 : LE PLUS GRAND CARRE DE 1
+# Exercice 5 : LE PLUS GRAND CARRE DE 1 (facultatif)
 
 + *Lire `n` et `m`, les nombres de lignes et de colonnes d'un tableau `t`.*
 + L'initialiser dans le `main()` avec des valeurs entières aléatoires comprises entre **0** et **1**, via une fonction qui reçoit `t` en paramètre.
