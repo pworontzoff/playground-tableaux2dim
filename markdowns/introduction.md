@@ -69,9 +69,9 @@ int main()
 	
     printf("nombre a placer tout en bas a droite en derniere case du tableau : ");
     scanf("%hd",&nb);
-
-	changeValEnBasADroite(t, m, n, nb)
-
+    
+    changeValEnBasADroite(t, m, n, nb);
+    
     printf("Tableau initialise a 0 avec nb en derniere case !");
 
     return 0;
