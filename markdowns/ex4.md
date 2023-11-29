@@ -10,4 +10,10 @@
 + Exemple :
 ![une exécution de la solution](images/exemple-ex4.png)
 
+**!!! La solution devra impérativement utiliser une fonction d'échange de valeurs entre 2 cellules de tableaux, dont le prototype sera : 
+
+```c
+void ech(short*, short*);
+```
+
 NB : Les lignes en italiques sont les mêmes que dans l'énoncé 1 (#reusecode ;-))
