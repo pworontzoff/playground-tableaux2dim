@@ -4,7 +4,7 @@ Les exercices de cette séance portent sur les consultations et modifications de
 Les tableaux seront passés par paramètre aux fonctions via un pointeur "masqué" en utilisant la notation ```nomTab[][N]``` dans l'en-tête (et prototype) de la fonction, pour lui passer le tableau.
 + ```nomTab``` est le nom du tableau
 + ```N``` est le nombre de colonnes du tableau.
-+ **pour appeler la fonction f qui manipule le tableau ```nomTab``` :
++ **pour appeler la fonction f qui manipule le tableau ```nomTab``` :**
 
 ```c
 f(nomTab, nl, nc); //nl et nc = nombre de lignes et de colonnes réellement utilisées
