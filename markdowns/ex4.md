@@ -1,7 +1,7 @@
 # Exercice 4 : MIROIR SUR LA DIGONALE
 
 + Lire `o`, le nombres de lignes et de colonnes d'un tableau (carré) `t`.
-+ *L'initialiser dans le `main()` avec des valeurs aléatoires comprises entre **1** et **100**, par indices.*
++ *Initialiser `t` dans le `main()` avec des valeurs aléatoires comprises entre **1** et **100**, par indices.*
 + *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` en paramètre.*
 + Intervertir les valeurs en se servant de la diagonale principale comme miroir, par indices.
 + *Afficher ces éléments ligne par ligne, via une fonction qui reçoit `t` en paramètre.*
