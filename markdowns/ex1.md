@@ -24,8 +24,10 @@ int main()
     short t[O][O] = { 0 };
     short m, n, i, j;
 
-    printf("nombre de lignes du tableau (<=%d): ", O);
-    scanf("%hd", &m);
+    srand(time(NULL)));
+
+    m = rand() % (O-1) + 2;
+    n = rand() % (O-1) + 2;
 
     printf("nombre de colonnes du tableau (<=%d): ", O);
     scanf("%hd", &n);
