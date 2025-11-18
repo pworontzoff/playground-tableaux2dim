@@ -45,7 +45,7 @@ int main()
     return 0;
 }
 
-void afficheTableau(short t[][O], short nl, short nc)
+void afficheTableau(short t[][N], short nl, short nc)
 {
     short i, j;
 
