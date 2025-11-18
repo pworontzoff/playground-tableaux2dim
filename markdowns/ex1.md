@@ -22,14 +22,14 @@ void afficheTableau(short t[][N], short nl, short nc);
 
 int main()
 {
-    short t[O][O] = { 0 };
+    short t[N][N] = { 0 };
     short m, n, i, j;
 
     srand(time(NULL));
 
     // nombres de lignes et de colonnes tirées au hasard
-    m = rand() % (O-1) + 2;
-    n = rand() % (O-1) + 2;
+    m = rand() % (N-1) + 2;
+    n = rand() % (N-1) + 2;
 
     // Parcours classique, lignes x colonnes, par indices :
     for (i = 0; i < m; i++) { // pour chaque ligne :
