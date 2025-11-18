@@ -10,6 +10,7 @@
 <summary>Spoiler : une solution type !</summary>
 
 ```C runnable
+#include <stdlib.h>
 #include <stdio.h>
 
 #define O 10
