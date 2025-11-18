@@ -19,6 +19,7 @@
 #define RANDMAX 100
 
 void afficheTableau(short t[][N], short nl, short nc);
+// /!\ N doit toujours correspondre au nombre de colonnes du tableau A LA DECLARATION (pas le nombre de colonnes utiles)
 
 int main()
 {
@@ -45,7 +46,7 @@ int main()
     return 0;
 }
 
-void afficheTableau(short t[][N], short nl, short nc)
+void afficheTableau(short t[][N], short nl, short nc) // /!\ N doit toujours correspondre au nombre de colonnes du tableau A LA DECLARATION (pas le nombre de colonnes utiles)
 {
     short i, j;
 
