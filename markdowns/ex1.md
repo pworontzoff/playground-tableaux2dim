@@ -12,7 +12,7 @@
 ```C runnable
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+#include <time.h> 
 
 #define O 10
 #define RANDMAX 100
