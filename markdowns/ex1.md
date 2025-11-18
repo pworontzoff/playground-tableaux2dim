@@ -6,6 +6,27 @@
 
 
 <details>
-<summary>Click to reveal the spoiler</summary>
+<summary>Spoiler : une solution type !</summary>
 
-This is the hidden spoiler content. You can include any text or even Markdown formatting here
+```C runnable
+#include <stdio.h>
+
+int main() {
+	int a = 55, b = 66, c = 77;
+
+	printf("L'adresse de a avant incrémentation : %p\n", &a);
+	printf("L'adresse de b avant incrémentation : %p\n", &b);
+	printf("L'adresse de c avant incrémentation : %p\n", &c);
+
+	a++;
+	b++;
+	c++;
+
+	printf("\nL'adresse de a après incrémentation :  %p\n", &a);
+	printf("L'adresse de b après incrémentation :  %p\n", &b);
+	printf("L'adresse de c après incrémentation :  %p\n", &c);
+
+	return 0;
+}
+
+```
