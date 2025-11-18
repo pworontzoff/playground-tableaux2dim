@@ -26,7 +26,7 @@ int main()
     short t[O][O] = { 0 };
     short m, n, i, j;
 
-    srand(time(NULL)));
+    srand(time(NULL));
 
     // nombres de lignes et de colonnes tirées au hasard
     m = rand() % (O-1) + 2;
