@@ -1,4 +1,4 @@
-# Exercice 1 : AFFICHAGE D’UN TABLEAU LIGNE PAR LIGNE
+# Exercice 1 : INITIALISATION (MAIN) ET AFFICHAGE (FCT) D’UN TABLEAU LIGNE PAR LIGNE
 
 + Déclarer un tableau `t` carré d'ordre N
 + tirer au hasard 2 nombres entiers `m` et `n`, tous deux entre 2 et N. Il s'agira des nombres de lignes et de colonnes utiles du tableau `t`.
