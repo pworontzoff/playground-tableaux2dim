@@ -14,12 +14,11 @@
 #include <stdio.h>
 #include <time.h> 
 
-#define O 10
+#define N 10 
+// -> N = nombre de lignes et de colonnes du tableau. Il s'agit donc d'un tableau "carré" d'ordre N.
 #define RANDMAX 100
 
-void afficheTableau(short t[][O], short nl, short nc);
-
-//NB : "O" comme "Ordre" du tableau (quand le nombre de lignes et de colonnes sont égaux à n, on parle d'un "tableau d'ordre n")
+void afficheTableau(short t[][N], short nl, short nc);
 
 int main()
 {
