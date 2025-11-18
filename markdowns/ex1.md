@@ -28,11 +28,9 @@ int main()
 
     srand(time(NULL)));
 
+    // nombres de lignes et de colonnes tirées au hasard
     m = rand() % (O-1) + 2;
     n = rand() % (O-1) + 2;
-
-    printf("nombre de colonnes du tableau (<=%d): ", O);
-    scanf("%hd", &n);
 
     // Parcours classique, lignes x colonnes, par indices :
     for (i = 0; i < m; i++) { // pour chaque ligne :
